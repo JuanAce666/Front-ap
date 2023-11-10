@@ -186,3 +186,26 @@
   });
 
 })()
+
+
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  const feedbackSection = document.getElementById('feedbackSection');
+  const feedbackItem = document.createElement('div');
+  feedbackItem.classList.add('feedback-item');
+  feedbackItem.innerHTML = `
+    <h3>${name} &lt;${email}&gt;</h3>
+    <p>${message}</p>
+  `;
+  feedbackSection.appendChild(feedbackItem);
+
+  // Limpiar el formulario después de enviar
+  document.getElementById('feedbackForm').reset();
+});
+
+
