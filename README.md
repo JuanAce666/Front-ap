@@ -1,12 +1,12 @@
 # CulturApp
 
-![CulturaApp](https://github.com/r3l4x1n/CulturApp_LandingPage/blob/main/assets/img/portafolio/Captura.PNG)
+![CulturaApp](https://github.com/JuanAce666/Front-ap/blob/main/assets/img/portafolio/Captura.PNG)
 
 ## Descripción del Proyecto
 
-CulturApp es un proyecto desarrollado utilizando tecnologías como HTML, CSS, JavaScript y algunas de sus bibliotecas más populares. El objetivo principal de CulturApp es crear un modelo de interfaz para una agencia de turismo, aplicando en su mayoría conceptos y conocimientos adquiridos a lo largo del curso.
+MyWellBeing es un proyecto desarrollado utilizando tecnologías como HTML, CSS, JavaScript y algunas de sus bibliotecas más populares. El objetivo principal de este desarrollo es crear una plataforma digital, aplicando en su mayoría conceptos y conocimientos adquiridos a lo largo del curso.
 
-## 🖥 Tecnologías Utilizadas
+## 🖥 Tecnologías y Librerias Utilizadas
 
 - HTML
 - CSS
@@ -16,8 +16,8 @@ CulturApp es un proyecto desarrollado utilizando tecnologías como HTML, CSS, Ja
 
 ## 📁 Acceso al Proyecto
 
-- **DEMO Link:** [https://r3l4x1n.github.io/CulturApp_LandingPage/](https://r3l4x1n.github.io/CulturApp_LandingPage/) <br>
-- **Puedes clonar el repositorio desde:** [aquí](https://github.com/r3l4x1n/CulturApp_LandingPage.git).
+- **DEMO Link:** [https://]() <br>
+- **Puedes clonar el repositorio desde:** [aquí]().
 
 ## 🛠️ Cómo Abrir y Ejecutar el Proyecto
 
