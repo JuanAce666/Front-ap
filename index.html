@@ -16,7 +16,7 @@
     <link href="assets/librerias/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
     <link href="./assets/img/logos/ico.png" rel="icon">
-    <title>CulturApp</title>
+    <title>MyWellBeing</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
                         <h3>
                             En MyWellbeing encontrarás:
-                            
+
                         </h3>
                         <!-- <p class="fst-italic">
                             Nos caracterizamos por el compromiso con la preservación y difusión de la cultura en nuestra
@@ -64,10 +64,11 @@
                             <li><i class="bi bi-check-circle"></i> Estadisticas De Información.</li>
                             <li><i class="bi bi-check-circle"></i> Planificación y Guias.</li>
                             <li><i class="bi bi-check-circle"></i> Recursos y Materiales.</li>
-                            <li><i class="bi bi-check-circle"></i> Apoyo Emocional.</li>                            
+                            <li><i class="bi bi-check-circle"></i> Apoyo Emocional.</li>
                         </ul>
                         <p class="fst-italic">
-                            MyWellbeing es una plataforma digital que ayuda a las personas a alcanzar su máximo potencial de bienestar.
+                            MyWellbeing es una plataforma digital que ayuda a las personas a alcanzar su máximo
+                            potencial de bienestar.
                         </p>
                     </div>
                 </div>
@@ -92,7 +93,8 @@
                             <span>02</span>
                             <h4>Facilitamos La Planificación</h4>
                             <p>
-                                MyWellbeing puede proporcionar información sobre temas como nutrición, ejercicio, gestión del estrés y la ansiedad
+                                MyWellbeing puede proporcionar información sobre temas como nutrición, ejercicio,
+                                gestión del estrés y la ansiedad
                             </p>
                         </div>
                     </div>
@@ -102,7 +104,7 @@
                             <span>03</span>
                             <h4>Destacamos Tu Potencial</h4>
                             <p>
-                                Creemos 
+                                Creemos
                             </p>
                         </div>
                     </div>
@@ -153,7 +155,8 @@
                             <div class="icon"><i class="bi bi-lamp"></i></div>
                             <h4><a href="">Hoteles</a></h4>
                             <p>
-                                Ofrecemos una amplia variedad de opciones de alojamiento para todos los viajeros, desde hoteles de lujo hasta hostales más económicos.
+                                Ofrecemos una amplia variedad de opciones de alojamiento para todos los viajeros, desde
+                                hoteles de lujo hasta hostales más económicos.
                             </p>
                         </div>
                     </div>
@@ -176,7 +179,8 @@
                             <div class="icon"><i class="bi bi-mortarboard"></i></div>
                             <h4><a href="">Academias</a></h4>
                             <p>
-                                Con una amplia variedad de programas y actividades son una excelente opción para las personas que buscan aprender sobre nuestra cultura o adquirir nuevas habilidades.
+                                Con una amplia variedad de programas y actividades son una excelente opción para las
+                                personas que buscan aprender sobre nuestra cultura o adquirir nuevas habilidades.
                             </p>
                         </div>
                     </div>
@@ -360,7 +364,7 @@
                         <div class="info-box  mb-4">
                             <i class="bx bx-envelope"></i>
                             <h3>Correo</h3>
-                            <p>culturapp@culturapp.com</p>
+                            <p>MyWellBeing@MyWellBeing.com</p>
                         </div>
                     </div>
 
@@ -385,177 +389,116 @@
                     <div class="col-lg-6">
                         <form method="post" role="form" class="php-email-form"
                             onsubmit="event.preventDefault(); submitMessage()">
-                            <div class="form-group">
-                                <select id="formSelector" class="form-control form-select"
-                                    onchange="alternarFormulario()">
-                                    <option selected> Registrate Aqui </option>
-                                    <option value="form1">Usuario</option>
-                                    <option value="form2">Empresa</option>
-                                </select>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="Nombre Completo" required>
+                                </div>
+                                <!-- <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Apellido" required>
+                                </div> -->
                             </div>
-
-                            <!-- FORMULARIO USUARIO 1-->
-                            <div id="form1" class="mt-3" style="display: none;">
+                            <div class="row">
+                                <div class="col-md-6 form-group mt-3 mt-md-2"">
+                                    <input type=" number" class="form-control" name="documento" id="documento"
+                                    placeholder="Documento" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-2">
+                                    <input type="number" class="form-control" name="edad" id="edad" placeholder="Edad"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group mt-3 mt-md-2"">
+                                    <input type=" text" class="form-control" name="estadoCivil" id="estadoCivil"
+                                    placeholder="Estado Civil" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-2">
+                                    <input type="text" class="form-control" name="genero" id="genero"
+                                        placeholder="Genero" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group mt-3 mt-md-2"">
+                                    <input type=" text" class="form-control" name="ciudad" id="ciudad"
+                                    placeholder="Ciudad" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 form-group mt-3 mt-md-2"">
+                                    <input type=" number" class="form-control" name="estrato" id="estrato"
+                                    placeholder="Estrato" required>
+                                </div>
+                                <div class="col-md-8 form-group mt-3 mt-md-2"">
+                                    <input type=" number" class="form-control" name="telefono" id="telefono"
+                                    placeholder="Telefono" required>
+                                </div>
+                            </div>
+                            <!-- <div class="form-group mt-3">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group mt-3 mt-md-3">
-                                            <input type="text" class="form-control" name="nombre" id="nombre"
-                                                placeholder="Nombre" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group mt-3 mt-md-3">
-                                            <input type="text" class="form-control" name="apellido" id="apellido"
-                                                placeholder="Apellido" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group mt-3 mt-md-3">
-                                            <input type="number" class="form-control" name="documento" id="documento"
-                                                placeholder="Numero de Documento" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group mt-3">
-                                            <input type="email" class="form-control" name="emailUsuario"
-                                                id="emailUsuario" placeholder="Correo Electronico" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group mt-3 mt-md-3">
-                                            <input type="text" class="form-control" name="ubicacionUsuario"
-                                                id="ubicacionUsuario" placeholder="Direccion - Ubicacion" required>
-                                        </div>
-                                    </div>
                                     <div class="col-md-4">
-                                        <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="areaCodeUsuario"
-                                                id="areaCodeUsuario" placeholder="+57" required>
-                                        </div>
+                                        <input type="tel" class="form-control" name="xxxx" id="xxxx" placeholder="xxxx" required>
                                     </div>
                                     <div class="col-md-8">
-                                        <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="telefonoUsuario"
-                                                id="telefonoUsuario" placeholder="Numero Telefonico" required>
-                                        </div>
+                                        <input type="tel" class="form-control" name="xxxxx" id="xxxxx" placeholder="xxxxx"
+                                            required>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!-- FORMULARIO EMPRESAS -->
-                            <div id="form2" class="mt-3" style="display: none">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="nombreEmpresa"
-                                                id="nombreEmpresa" placeholder="Nombre Empresa" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group mt-3 mt-md-3">
-                                            <input type="text" class="form-control" name="nitEmpresa" id="nitEmpresa"
-                                                placeholder="Documento NIT" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="areaCodeEmpresa"
-                                                id="areaCodeEmpresa" placeholder="+57" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="form-group mt-3">
-                                            <input type="tel" class="form-control" name="telefonoEmpresa"
-                                                id="telefonoEmpresa" placeholder="Numero Telefonico" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="form-group mt-3">
-                                            <input type="text" class="form-control" name="ubicacionEmpresa"
-                                                id="ubicacionEmpresa" placeholder="Direccion / Ubicacion" required>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mt-4 text-center">
-                                <button type="submit" class="btn btn-primary">Enviar Datos</button>
-                            </div>
+                            </div> -->
+                            <br>
+                            <div class="text-center"><button type="submit">Enviar Mis Datos</button></div>
                         </form>
                     </div>
 
                     <script>
-                        function alternarFormulario() {
-                            var formSelector = document.getElementById("formSelector");
-                            var form1 = document.getElementById("form1");
-                            var form2 = document.getElementById("form2");
-
-                            form1.style.display = "none";
-                            form2.style.display = "none";
-
-                            var inputsUsuario = document.querySelectorAll("#form1 input");
-                            inputsUsuario.forEach(function (input) {
-                                input.disabled = true;
-                            });
-
-                            var inputsEmpresa = document.querySelectorAll("#form2 input");
-                            inputsEmpresa.forEach(function (input) {
-                                input.disabled = true;
-                            });
-
-                            if (formSelector.value === "form1") {
-                                form1.style.display = "block";
-
-                                inputsUsuario.forEach(function (input) {
-                                    input.disabled = false;
-                                });
-                            } else if (formSelector.value === "form2") {
-                                form2.style.display = "block";
-
-                                inputsEmpresa.forEach(function (input) {
-                                    input.disabled = false;
-                                });
-                            }
-                        }
-                    </script>
-
-                    <script>
                         function submitMessage() {
-                            var formSelector = document.getElementById("formSelector").value;
-                            var formData = {};
+                            const name = document.getElementById("name").value;
+                            const documento = document.getElementById("documento").value;
+                            const edad = document.getElementById("edad").value;
+                            const estadoCivil = document.getElementById("estadoCivil").value;
+                            const genero = document.getElementById("genero").value;
+                            const ciudad = document.getElementById("ciudad").value;
+                            const telefono = document.getElementById("telefono").value;
+                            const estrato = document.getElementById("estrato").value;
 
-                            if (formSelector === "form1") {
-                                formData.type = "usuario";
-                                formData.Nombre = document.getElementById("nombre").value;
-                                formData.Apellido = document.getElementById("apellido").value;
-                                formData.Documento = document.getElementById("documento").value;
-                                formData.emailUsuario = document.getElementById("emailUsuario").value;
-                                formData.ubicacionUsuario = document.getElementById("ubicacionUsuario").value;
-                                formData.areaCodeUsuario = document.getElementById("areaCodeUsuario").value;
-                                formData.telefonoUsuario = document.getElementById("telefonoUsuario").value;
-                            } else if (formSelector === "form2") {
-                                formData.type = "empresa";
-                                formData.Empresa = document.getElementById("nombreEmpresa").value;
-                                formData.Nit = document.getElementById("nitEmpresa").value;
-                                formData.areaCodeEmpresa = document.getElementById("areaCodeEmpresa").value;
-                                formData.telefonoEmpresa = document.getElementById("telefonoEmpresa").value;
-                                formData.ubicacionEmpresa = document.getElementById("ubicacionEmpresa").value;
+                            //Validar que todos los campos estén llenos
+                            if (name === "" || documento === "" || edad === "" || estadoCivil === "" || genero === "" || ciudad === "" || telefono === "" || estrato === "") {
+                                alert("Porfavor rellena la información en todos los campos");
+                                return;
                             }
 
-                            document.getElementById("nombre").value = "";
-                            document.getElementById("apellido").value = "";
-                            document.getElementById("documento").value = "";
-                            document.getElementById("emailUsuario").value = "";
-                            document.getElementById("ubicacionUsuario").value = "";
-                            document.getElementById("areaCodeUsuario").value = "";
-                            document.getElementById("telefonoUsuario").value = "";
-                            document.getElementById("nombreEmpresa").value = "";
-                            document.getElementById("nitEmpresa").value = "";
-                            document.getElementById("areaCodeEmpresa").value = "";
-                            document.getElementById("telefonoEmpresa").value = "";
-                            document.getElementById("ubicacionEmpresa").value = "";
+                            // Validar que docu, edad, tele, estra no sean Nulos
+                            if (documento === null || edad === null || telefono === null || estrato === null) {
+                                alert("La Fecha de Cumpleaños, Codigo de Área, y Telefono no pueden estar vacias");
+                                return;
+                            }
 
+                            // Save the data in memory for later use
+                            const formData = {
+                                name: name,
+                                documento: documento,
+                                edad: edad,
+                                estadoCivil: estadoCivil,
+                                genero: genero,
+                                ciudad: ciudad,
+                                telefono: telefono,
+                                estrato: estrato,
+                            };
                             console.log(formData);
+
+                            // Display success message
+                            alert("Creación Exitosa");
+
+                            // Clear the form
+                            document.getElementById("name").value = "";
+                            document.getElementById("documento").value = "";
+                            document.getElementById("edad").value = "";
+                            document.getElementById("estadoCivil").value = "";
+                            document.getElementById("genero").value = "";
+                            document.getElementById("ciudad").value = "";
+                            document.getElementById("telefono").value = "";
+                            document.getElementById("estrato").value = "";
+
                         }
 
                     </script>
@@ -575,7 +518,7 @@
                                 Avenida Siempreviva 743<br>
                                 Medellin, Colombia<br><br>
                                 <strong>Telefono:</strong> +0640000000<br>
-                                <strong>Email:</strong> culturapp@culturapp.com<br>
+                                <strong>Email:</strong> MyWellBeing@MyWellBeing.com<br>
                             </p>
                             <div class="social-links mt-3">
                                 <a href="https://www.twitter.com/" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -600,7 +543,7 @@
                         <p>Recibe nuestras Promociones, Productos Nuevos, Concursos y Más...</p>
                         <form action="" method="post">
                             <input type="email" name="email">
-                            <input type="submit"  value="Subscribete">
+                            <input type="submit" value="Subscribete">
                     </div>
                 </div>
             </div>
