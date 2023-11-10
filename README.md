@@ -1,6 +1,6 @@
 # CulturApp
 
-![CulturaApp](https://github.com/JuanAce666/Front-ap/blob/main/assets/img/portafolio/Captura.PNG)
+![MyWellBeing](https://github.com/JuanAce666/Front-ap/blob/main/assets/img/portafolio/Captura.PNG)
 
 ## Descripción del Proyecto
 
